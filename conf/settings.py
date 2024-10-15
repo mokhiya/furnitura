@@ -17,7 +17,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
 
-    # local
+    # locale
     'pages',
     'common',
     'users',
@@ -87,7 +87,9 @@ LANGUAGES = (
     ('uz', 'Uzbek'),
     ('ru', 'Russian'))
 
-TIME_ZONE = 'UTC'
+LOCALE_PATHS = (BASE_DIR / 'locale',)
+
+TIME_ZONE = 'Asia/Tashket'
 
 USE_I18N = True
 
@@ -102,3 +104,12 @@ MEDIA_URL = '/media/'
 MEDIA_ROOT = BASE_DIR / 'media/'
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
+EMAIL_HOST = 'smtp.gmail.com'
+EMAIL_HOST_USER = 'mohiyaxonuzokova@gmail.com'
+EMAIL_HOST_PASSWORD = 'pytj dmst fitq eeth'
+EMAIL_PORT = 587
+EMAIL_USE_TLS = True
+EMAIL_USE_SSL = False
+

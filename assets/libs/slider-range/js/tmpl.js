@@ -15,7 +15,7 @@
       new Function("obj",
         "var p=[],print=function(){p.push.apply(p,arguments);};" +
         
-        // Introduce the data as local variables using with(){}
+        // Introduce the data as locale variables using with(){}
         "with(obj){p.push('" +
         
         // Convert the template into pure JavaScript
