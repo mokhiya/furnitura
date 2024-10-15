@@ -1,0 +1,158 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#: .\templates\layouts\header_base.html:77
+#: .\templates\layouts\header_base.html:78
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-10-16 03:26+0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+#: .\templates\layouts\footer.html:23 .\templates\layouts\header_base.html:163
+msgid "About Us"
+msgstr "Biz haqimizda"
+
+#: .\templates\layouts\footer.html:26
+msgid "Reasons to shop"
+msgstr "Xarid uchun sabab"
+
+#: .\templates\layouts\footer.html:29
+msgid "What our customers say"
+msgstr "Mijozlarimiz nima deydi"
+
+#: .\templates\layouts\footer.html:32
+msgid "Meet the teaml"
+msgstr "Jamoa bilan tanishing"
+
+#: .\templates\layouts\footer.html:35
+msgid "Contact our buyers"
+msgstr "Xaridorlarimiz bilan bog'lanish"
+
+#: .\templates\layouts\footer.html:51 .\templates\layouts\header_base.html:175
+msgid "Contact Us"
+msgstr "Biz bilan bog'lanish"
+
+#: .\templates\layouts\footer.html:57
+msgid "Address"
+msgstr "Manzil"
+
+#: .\templates\layouts\footer.html:60
+msgid ""
+"123 Suspendis matti, Visaosang Building VST District NY Accums, North "
+"American"
+msgstr "123 Suspendis matti, Visaosang binosi VST tumani, NY Accums, Shimoliy Amerika  "
+
+#: .\templates\layouts\footer.html:67
+msgid "Email"
+msgstr "Pochta"
+
+#: .\templates\layouts\footer.html:76
+msgid "Hotline"
+msgstr "Doimiy aloqa"
+
+#: .\templates\layouts\footer.html:85
+msgid "Opening Hours"
+msgstr "Ochilish soatlari"
+
+#: .\templates\layouts\footer.html:88
+msgid "Monday - Sunday / 08.00AM- 19.00"
+msgstr "Dushanba - Yakshanba / 08.00 - 19.00"
+
+#: .\templates\layouts\footer.html:89
+msgid "(Except Holidays)"
+msgstr "(Bayram kunlaridan tashqari)"
+
+#: .\templates\layouts\footer.html:98
+msgid "Newsletter"
+msgstr "Xabarnoma"
+
+#: .\templates\layouts\footer.html:99
+msgid ""
+"Sign up to our newsletter to get the latest articles, lookbooks voucher "
+"codes direct to your inbox"
+msgstr "Oxirgi maqolalar, lookbooks vaucher kodlarini bevosita pochta qutingizga olish uchun xabarnomaga obuna bo'ling."
+
+#: .\templates\layouts\footer.html:107
+msgid "subscribe"
+msgstr "a'zo bo'lish"
+
+#: .\templates\layouts\footer.html:120
+msgid "Follow us on"
+msgstr "Bizni kuzating"
+
+#: .\templates\layouts\footer.html:155
+msgid "Payment accept"
+msgstr "To'lov qabuli"
+
+#: .\templates\layouts\header_base.html:56
+msgid "Organic Strawberry Fruits"
+msgstr "Organik qulupnay mevalari"
+
+#: .\templates\layouts\header_base.html:113
+msgid "Home Page"
+msgstr "Asosiy sahifa"
+
+#: .\templates\layouts\header_base.html:123
+msgid "Blog List"
+msgstr "Blog sahifa"
+
+#: .\templates\layouts\header_base.html:126
+msgid "Blog Detail"
+msgstr "Blog tafsiloti"
+
+#: .\templates\layouts\header_base.html:132
+msgid "Page"
+msgstr "Sahifa"
+
+#: .\templates\layouts\header_base.html:139
+msgid "Category Style"
+msgstr "Kategoriya stili"
+
+#: .\templates\layouts\header_base.html:143
+msgid "Product List"
+msgstr "Mahsulot listi"
+
+#: .\templates\layouts\header_base.html:159
+msgid "Bonus Page"
+msgstr "Bonus shaifa"
+
+#: .\templates\layouts\header_base.html:196
+msgid "Accaunt"
+msgstr "Hisob"
+
+#: .\templates\layouts\header_base.html:207
+#: .\templates\layouts\header_base.html:213
+msgid "Log in to your customer account"
+msgstr "Mijoz hisobiga kirish"
+
+#: .\templates\layouts\header_base.html:227
+#: .\templates\layouts\header_base.html:313
+msgid "Checkout"
+msgstr "Tekshirish"
+
+#: .\templates\layouts\header_base.html:233
+msgid "My Wishlists"
+msgstr "Mening xohishlarim"
+
+#: .\templates\layouts\header_base.html:291
+msgid "Organic strawberry fruits"
+msgstr "Organik qulupnay mevasi"
+
+#: .\templates\layouts\header_base.html:305
+msgid "Total"
+msgstr "Jami"
+
+#: .\templates\layouts\header_base.html:312
+msgid "View Cart"
+msgstr "Kartani ko'rish"

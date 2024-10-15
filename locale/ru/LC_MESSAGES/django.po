@@ -1,0 +1,160 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#: .\templates\layouts\header_base.html:77
+#: .\templates\layouts\header_base.html:78
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-10-16 03:26+0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || "
+"(n%100>=11 && n%100<=14)? 2 : 3);\n"
+#: .\templates\layouts\footer.html:23 .\templates\layouts\header_base.html:163
+msgid "About Us"
+msgstr "О нас"
+
+#: .\templates\layouts\footer.html:26
+msgid "Reasons to shop"
+msgstr "Причины для покупок"
+
+#: .\templates\layouts\footer.html:29
+msgid "What our customers say"
+msgstr "Что говорят наши клиенты"
+
+#: .\templates\layouts\footer.html:32
+msgid "Meet the teaml"
+msgstr "Познакомьтесь с командой"
+
+#: .\templates\layouts\footer.html:35
+msgid "Contact our buyers"
+msgstr "Связаться с нашими покупателями"
+
+#: .\templates\layouts\footer.html:51 .\templates\layouts\header_base.html:175
+msgid "Contact Us"
+msgstr "Связаться с нами"
+
+#: .\templates\layouts\footer.html:57
+msgid "Address"
+msgstr "Адрес"
+
+#: .\templates\layouts\footer.html:60
+msgid ""
+"123 Suspendis matti, Visaosang Building VST District NY Accums, North "
+"American"
+msgstr ""
+
+#: .\templates\layouts\footer.html:67
+msgid "Email"
+msgstr "Электронная почта"
+
+#: .\templates\layouts\footer.html:76
+msgid "Hotline"
+msgstr "Горячая линия"
+
+#: .\templates\layouts\footer.html:85
+msgid "Opening Hours"
+msgstr "Часы работы"
+
+#: .\templates\layouts\footer.html:88
+msgid "Monday - Sunday / 08.00AM- 19.00"
+msgstr "Понедельник - воскресенье / 08.00- 19.00"
+
+#: .\templates\layouts\footer.html:89
+msgid "(Except Holidays)"
+msgstr "(Кроме праздников)"
+
+#: .\templates\layouts\footer.html:98
+msgid "Newsletter"
+msgstr "Информационный бюллетень"
+
+#: .\templates\layouts\footer.html:99
+msgid ""
+"Sign up to our newsletter to get the latest articles, lookbooks voucher "
+"codes direct to your inbox"
+msgstr "Подпишитесь на нашу рассылку, чтобы получать последние статьи, купоны на лукбуки и промокоды прямо на свой почтовый ящик"
+
+#: .\templates\layouts\footer.html:107
+msgid "subscribe"
+msgstr "подписаться"
+
+#: .\templates\layouts\footer.html:120
+msgid "Follow us on"
+msgstr "Подпишитесь на нас"
+
+#: .\templates\layouts\footer.html:155
+msgid "Payment accept"
+msgstr "Принимаем оплату"
+
+#: .\templates\layouts\header_base.html:56
+msgid "Organic Strawberry Fruits"
+msgstr "Органические фрукты клубники"
+
+#: .\templates\layouts\header_base.html:113
+msgid "Home Page"
+msgstr "Главная страница"
+
+#: .\templates\layouts\header_base.html:123
+msgid "Blog List"
+msgstr "Список блогов"
+
+#: .\templates\layouts\header_base.html:126
+msgid "Blog Detail"
+msgstr "Подробности блога"
+
+#: .\templates\layouts\header_base.html:132
+msgid "Page"
+msgstr "Страница"
+
+#: .\templates\layouts\header_base.html:139
+msgid "Category Style"
+msgstr "Стиль категории"
+
+#: .\templates\layouts\header_base.html:143
+msgid "Product List"
+msgstr "Список продуктов"
+
+#: .\templates\layouts\header_base.html:159
+msgid "Bonus Page"
+msgstr "Бонусная страница"
+
+#: .\templates\layouts\header_base.html:196
+msgid "Accaunt"
+msgstr "Учетная запись"
+
+#: .\templates\layouts\header_base.html:207
+#: .\templates\layouts\header_base.html:213
+msgid "Log in to your customer account"
+msgstr "Войдите в свою учетную запись клиента"
+
+#: .\templates\layouts\header_base.html:227
+#: .\templates\layouts\header_base.html:313
+msgid "Checkout"
+msgstr "Оформить заказ"
+
+#: .\templates\layouts\header_base.html:233
+msgid "My Wishlists"
+msgstr "Мои списки желаний"
+
+#: .\templates\layouts\header_base.html:291
+msgid "Organic strawberry fruits"
+msgstr "Органические клубничные фрукты"
+
+#: .\templates\layouts\header_base.html:305
+msgid "Total"
+msgstr "Всего"
+
+#: .\templates\layouts\header_base.html:312
+msgid "View Cart"
+msgstr "Просмотреть корзину"
