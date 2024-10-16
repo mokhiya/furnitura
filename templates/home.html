@@ -1,3 +1,5 @@
+{% load static %}
+{% load i18n %}
 <!DOCTYPE html>
 <!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
 <!--[if IE 9 ]><html class="ie ie9" lang="en"> <![endif]-->
@@ -40,8 +42,8 @@
     <link rel="stylesheet" type="text/css" href="{% static 'css/reponsive.css' %}">
 </head>
 
-<body id="home3">
-    
+<body id="home3" class="blog">
+    {% include 'layouts/header_home.html' %}
 
     <!-- main content -->
     <div class="main-content">
@@ -2196,7 +2198,7 @@
                                     </div>
                                     <ul>
                                         <li>
-                                            <a href="#">Contact Us</a>
+                                            <a href="{% url 'pages:contact' %}">{% trans 'Contact Us' %}</a>
                                         </li>
                                         <li>
                                             <a href="#">Help and advice</a>
@@ -2222,7 +2224,7 @@
                             <div class="block">
                                 <div class="block-content">
                                     <div class="title-block">
-                                        CONTACT US
+                                        {% trans 'CONTACT US' %}
                                     </div>
                                     <div class="contact-content">
                                         <div class="data align-self-stretch d-flex">
@@ -2443,7 +2445,7 @@
         </div>
     </footer>
 
-    <!-- back top top -->
+    <!-- back to top -->
     <div class="back-to-top">
         <a href="#">
             <i class="fa fa-long-arrow-up"></i>
@@ -3090,8 +3092,8 @@
                                 </div>
                             </li>
                             <li class="item has-sub">
-                                <a href="contact.html" title="Contact us">
-                                    <i class="fa fa-map-marker" aria-hidden="true"></i>Contact us</a>
+                                <a href="contact.html" title="{% trans 'Contact us' %}">
+                                    <i class="fa fa-map-marker" aria-hidden="true"></i>{% trans 'Contact us' %}</a>
                             </li>
                         </ul>
                     </div>

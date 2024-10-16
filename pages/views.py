@@ -1,5 +1,11 @@
+from django.contrib import messages
 from django.shortcuts import render
-from django.views.generic import TemplateView
+from django.urls import reverse_lazy
+from django.views.generic import TemplateView, CreateView
+from django.utils.translation import gettext_lazy as _
+
+from pages.admin import ContactModel
+from pages.forms import ContactModelForm
 
 
 class ContentView(TemplateView):
@@ -42,3 +48,11 @@ class WishlistView(TemplateView):
 
 class CheckoutView(TemplateView):
     template_name = 'checkout.html'
+
+
+class ContactCreateView(CreateView):
+    model = ContactModel
+    template_name = 'contact.html'
+    form_class = ContactModelForm
+    success_url = reverse_lazy('pages:create')
+    success_message = _('Your message is submitted!')
