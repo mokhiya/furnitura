@@ -47,13 +47,13 @@
                                     <tbody>
                                         <tr>
                                             <td class="product-image">
-                                                <a href="{% url 'pages:product/' %}">
+                                                <a href="{% url 'products:detail' %}">
                                                     <img src="{% static 'img/product/5.jpg' %}" alt="Product">
                                                 </a>
                                             </td>
                                             <td>
                                                 <div class="product-name">
-                                                    <a href="{% url 'pages:product/' %}">{% trans 'Organic Strawberry Fruits' %}</a>
+                                                    <a href="{% url 'products:detail' %}">{% trans 'Organic Strawberry Fruits' %}</a>
                                                 </div>
                                                 <div>
                                                     2 x
@@ -106,17 +106,17 @@
                         <div class="menu navbar collapse navbar-collapse">
                             <ul class="menu-top navbar-nav">
                                 <li>
-                                    <a href="#" class="parent">Home</a>
+                                    <a href="{% url 'home' %}" class="parent">{% trans 'Home' %}</a>
                                     <div class="dropdown-menu">
                                         <ul>
                                             <li class="item">
-                                                <a href="{% url 'pages:home' %}" title="Home Page">{% trans 'Home Page' %}</a>
+                                                <a href="{% url 'home' %}" title="Home Page">{% trans 'Home Page' %}</a>
                                             </li>
                                         </ul>
                                     </div>
                                 </li>
                                 <li>
-                                    <a href="#" class="parent">Blog</a>
+                                    <a href="#" class="parent">{% trans 'Blog' %}</a>
                                     <div class="dropdown-menu">
                                         <ul>
                                             <li class="item">
@@ -140,7 +140,7 @@
                                                             <div class="menu-content">
                                                                 <ul class="col">
                                                                     <li>
-                                                                        <a href="{% url 'pages:product' %}">{% trans 'Product List' %} </a>
+                                                                        <a href="{% url 'products:list' %}">{% trans 'Product List' %} </a>
                                                                     </li>
                                                                 </ul>
                                                             </div>
@@ -150,7 +150,7 @@
                                                             <div class="menu-content">
                                                                 <ul>
                                                                     <li>
-                                                                        <a href="{% url 'pages:product' %}">{% trans %}Product Detail</a>
+                                                                        <a href="{% url 'products:detail' %}">{% trans 'Product Detail' %}</a>
                                                                     </li>
                                                                 </ul>
                                                             </div>
@@ -282,13 +282,13 @@
                                             <tbody>
                                                 <tr>
                                                     <td class="product-image">
-                                                        <a href="{% url 'pages:product/' %}">
+                                                        <a href="{% url 'products:detail' %}">
                                                             <img src="{% static 'img/product/5.jpg' %}" alt="Product">
                                                         </a>
                                                     </td>
                                                     <td>
                                                         <div class="product-name">
-                                                            <a href="{% url 'pages:product/' %}">{% trans 'Organic strawberry fruits' %}</a>
+                                                            <a href="{% url 'products:detail' %}">{% trans 'Organic strawberry fruits' %}</a>
                                                         </div>
                                                         <div>
                                                             2 x

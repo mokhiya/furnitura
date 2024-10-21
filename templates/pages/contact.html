@@ -1,3 +1,4 @@
+{% extends 'layouts/base.html' %}
 {% load static %}
 {% load i18n %}
 {% block title %}Contact{% endblock %}
@@ -13,13 +14,13 @@
                         <div class="breadcrumb">
                             <ol>
                                 <li>
-                                    <a href="{% url 'pages:home' %}">
-                                        <span>Home</span>
+                                    <a href="{% url 'home' %}">
+                                        <span>{% trans 'Home' %}</span>
                                     </a>
                                 </li>
                                 <li>
                                     <a href="{% url 'pages:contact' %}">
-                                        <span>Contact</span>
+                                        <span>{% trans 'Contact' %}</span>
                                     </a>
                                 </li>
                             </ol>

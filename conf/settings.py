@@ -22,6 +22,7 @@ INSTALLED_APPS = [
     'common',
     'users',
     'blogs',
+    'products',
 ]
 
 MIDDLEWARE = [
