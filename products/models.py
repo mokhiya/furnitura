@@ -1,3 +1,4 @@
+from django.core.validators import MinValueValidator, MaxValueValidator
 from django.db import models
 from django.utils.translation import gettext_lazy as _
 from common.models import BaseModel
@@ -69,8 +70,8 @@ class ProductModel(BaseModel):
     quantity = models.IntegerField(verbose_name=_("Quantity"), default=1)
     price = models.DecimalField(verbose_name=_("Price"), max_digits=10, decimal_places=2)
     name = models.CharField(max_length=100, verbose_name=_("Name"))
-    discount = models.FloatField(default=0, verbose_name=_("Discount"))
-    real_price = models.DecimalField(max_digits=10, decimal_places=2, verbose_name=_("Real Price"))
+    discount = models.FloatField(default=0, verbose_name=_("Discount"), validators=[MinValueValidator(0), MaxValueValidator(100)])
+    real_price = models.DecimalField(max_digits=10, decimal_places=2, verbose_name=_("Real Price"), default=0.00)
 
     category = models.ManyToManyField(CategoryModel, related_name="products")
     tag = models.ManyToManyField(TagModel, related_name="products")
@@ -84,3 +85,8 @@ class ProductModel(BaseModel):
     class Meta:
         verbose_name_plural = 'products'
         verbose_name = 'Product'
+
+
+class ProductImageModel(models.Model):
+    product = models.ForeignKey(ProductModel, related_name="images", on_delete=models.CASCADE)
+    image = models.ImageField(verbose_name=_("Image"), upload_to="products/images/")
